@@ -1,17 +1,17 @@
 package lab6;
 
+import java.util.Scanner;
+
 public class lab6_1 {
     public static void main(String[] args) {
-        int temp;
-        int far;
-        int cel;
+               Scanner sc = new Scanner(System.in);
+                double c;
+                System.out.println("Input a degree in celsius: ");
+                c = sc.nextDouble();
+                double f = (9*c+(32*5))/5;  //   c*9/5+32
 
-        temp = 25;
 
-        far = temp * 9 / 5 + 32; //convert Celsius to Fahrenheit
-        cel = (far - 32) * 5 / 9; // convert Fahrenheit to Celsius
+                System.out.println(c+ "degree Celsius is equal to "+f+" in Fahrenheit");
+            }
+        }
 
-        System.out.println("Celsius --> Fahrenheit: " + far);
-        System.out.println("Fahrenheit --> Celsius: " + cel);
-    }
-}

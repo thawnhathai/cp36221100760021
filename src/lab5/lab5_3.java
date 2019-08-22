@@ -3,7 +3,6 @@ package lab5;
 import java.util.Scanner;
 
 public class lab5_3 {
-    public class Lab5_3 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int day;
@@ -18,4 +17,4 @@ public class lab5_3 {
             System.out.println("H: "+day);
         }
     }
-}
+
