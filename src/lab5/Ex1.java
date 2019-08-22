@@ -4,7 +4,7 @@ public class Ex1 {
    public static void main(String[] args) {
     //boolean
         boolean b = true;
-        System.out.println(b);
+        System.out.println(!b);
 
         //charecters
         char c = '#';
