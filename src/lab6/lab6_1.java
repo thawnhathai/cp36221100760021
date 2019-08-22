@@ -15,6 +15,3 @@ public class lab6_1 {
         System.out.println("Fahrenheit --> Celsius: " + cel);
     }
 }
-
-    }
-}
