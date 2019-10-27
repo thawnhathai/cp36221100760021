@@ -23,7 +23,7 @@ public class Ex3 {
 
     }//main
 
-    private Static void findAverage(int[] num) {
+    private static void findAverage(int[] num) {
         int total = 0;
         for (int val:num){
             total+=val;
